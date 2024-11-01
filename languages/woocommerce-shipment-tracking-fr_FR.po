@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-shipment-tracking\n"
+"POT-Creation-Date: 2015-06-26 19:27+0530\n"
+"PO-Revision-Date: 2015-06-26 21:11+0530\n"
+"Last-Translator: \n"
+"Language-Team: WooForce <info@wooforce.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wf-tracking-admin.php:44
+msgid "Shipping Detail"
+msgstr "Détail d'expédition"
+
+#: includes/class-wf-tracking-admin.php:82
+#: includes/class-wf-tracking-admin.php:163
+msgid "Shipment Tracking"
+msgstr "Suivi des expéditions"
+
+#: includes/class-wf-tracking-admin.php:86
+msgid "Shipment ID"
+msgstr "Shipment ID"
+
+#: includes/class-wf-tracking-admin.php:86
+msgid "Follow link for detailed status."
+msgstr "Suivez le lien pour l'état détaillé ."
+
+#: includes/class-wf-tracking-admin.php:87
+msgid "Status"
+msgstr "statut"
+
+#: includes/class-wf-tracking-admin.php:97
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"Impossible de mettre à jour le statut en temps réel à ce point de temps . "
+"S'il vous plaît suivre le lien sur l'expédition id pour vérifier l'état ."
+
+#: includes/class-wf-tracking-admin.php:130
+msgid "Sorry, Unable to proceed."
+msgstr "Désolé , Impossible de continuer ."
+
+#: includes/class-wf-tracking-admin.php:133
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Incapable de suivre l'expédition . S'il vous plaît vérifier l'expédition "
+"traverser id ou essayez après un certain temps ."
+
+#: includes/class-wf-tracking-admin.php:142
+msgid "Tracking is unset."
+msgstr "Tracking est à l'arrêt ."
+
+#: includes/class-wf-tracking-admin.php:145
+msgid "Tracking Data is reset to default."
+msgstr "Suivi des données est réinitialisés ."
+
+#: includes/class-wf-tracking-admin.php:192
+msgid "None"
+msgstr "aucun"
+
+#: includes/class-wf-tracking-admin.php:198
+msgid "Enter Tracking IDs"
+msgstr "Entrez Tracking ID"
+
+#: includes/class-wf-tracking-admin.php:199
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr ""
+"Séparés par des virgules , dans le cas de plusieurs identifiants "
+"d'expédition pour cette commande ."
+
+#: includes/class-wf-tracking-admin.php:202
+msgid "This field is Optional."
+msgstr "Ce champ est facultatif."
+
+#: includes/class-wf-tracking-admin.php:206
+msgid "Save/Show Tracking Info"
+msgstr "Enregistrer / Afficher Tracking Infos"
+
+#: includes/class-wf-tracking-admin.php:224
+msgid "You don't have admin privileges to view this page."
+msgstr ""
+"Vous ne disposez pas des privilèges d'administrateur pour voir cette page ."
+
+#: includes/class-wf-tracking-admin.php:245
+msgid "Unable to update tracking info."
+msgstr "Impossible de mettre à jour d'informations de suivi ."
+
+#: includes/class-wf-tracking-settings.php:15
+msgid "Tracking"
+msgstr "poursuite"
+
+#: includes/class-wf-tracking-settings.php:65
+msgid "Shipment Tracking Settings"
+msgstr "Paramètres de suivi de l'expédition"
+
+#: includes/class-wf-tracking-settings.php:71
+msgid "Custom Shipment Message."
+msgstr "Envoi de message personnalisé ."
+
+#: includes/class-wf-tracking-settings.php:73
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively."
+"<br>"
+msgstr ""
+"Définissez votre propre message d' expédition. Utilisez les balises lieu de "
+"titulaire [ID] , [Service] et [ date] pour l'expédition Id , service de "
+"transport et l'expédition date respectivement . <br>"
+
+#: includes/class-wf-tracking-settings.php:79
+msgid "Turn off API Status"
+msgstr "Éteignez API Statut"
+
+#: includes/class-wf-tracking-settings.php:80
+msgid "Turn off Real time API Status"
+msgstr "Éteignez temps réel API Statut"
+
+#: includes/class-wf-tracking-settings.php:82
+msgid ""
+"Turn off real time API tracking status on customer order page. Basic "
+"Tracking info on top will still be  displayed."
+msgstr ""
+"Éteignez statut en temps réel de suivi de l' API sur la page de commande du "
+"client . Infos de suivi de base au-dessus sera toujours affichée ."
+
+#: includes/class-wf-tracking-settings.php:87
+msgid "Tracking Data"
+msgstr "suivi des données"
+
+#: includes/class-wf-tracking-settings.php:91
+msgid ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+msgstr ""
+"Vous pouvez ajouter ou supprimer des services de suivi des expéditions en "
+"ajoutant ou supprimant des lignes respectives . <br/> Pour ajouter un "
+"nouveau service , créer une nouvelle ligne en ajoutant le nom de "
+"l'expéditeur et le suivi des URL (optionnel ) séparées utilisant le symbole "
+"de pipe ' | ' comme indiqué ci-dessous. <br/> Format: <strong > [nom du "
+"service d'expédition ] | [ url suivi de l'expédition (en option ) ] < / "
+"strong> <br/> Exemple: <strong > Nom d'expédition Service | http: // "
+"tracking_url tracking_id = < / strong> <br/> URL de suivi complexes peuvent "
+"être représentés en utilisant les balises lieu de titulaire [ ID ] et "
+"[ PIN ] pour l'expédition Id et code postal respectivement Exemple <br/> : "
+"<strong > PostNL | https : . // jouw .postnl.nl / [ ID ] / piste -en- "
+"trace / 111111111 / NL / [PIN ] </ strong > <br/>"
+
+#: includes/class-wf-tracking-settings.php:94
+msgid "[ shipping service name ]|[ shipment tracking url ]"
+msgstr "[ Nom du service d'expédition ] | [ Suivi d'envoi URL ]"
+
+#: includes/class-wf-tracking-settings.php:97
+#: includes/class-wf-tracking-settings.php:98
+msgid "Reset Tracking Data"
+msgstr "Rafraîchir suivi des données"
+
+#: includes/class-wf-tracking-settings.php:100
+msgid ""
+"Reset tracking data to the default values. All custom added values in the "
+"above tracking data will be cleaned up."
+msgstr ""
+"Réinitialiser les données de suivi pour les valeurs par défaut . Toutes les "
+"valeurs ajoutées personnalisés dans les données de suivi ci-dessus seront "
+"nettoyés ."
+
+#: woocommerce-shipment-tracking.php:41
+msgid "Settings"
+msgstr "paramètres"
+
+#: woocommerce-shipment-tracking.php:42
+msgid "Support"
+msgstr "soutien"
